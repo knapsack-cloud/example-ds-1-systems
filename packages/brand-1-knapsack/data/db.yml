@@ -24,4 +24,8 @@ settings:
         pageDescription: {}
         pageTitle: {}
     version: 10
-  title: Pillar 1
+  title: Embed
+  tokens:
+    theming:
+      enabledRendererIds:
+        - react

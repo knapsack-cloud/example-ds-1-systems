@@ -8,5 +8,53 @@
       "$value": "#C8A2C8",
       "$type": "color"
     }
+  },
+  "$extensions": {
+    "cloud.knapsack": {
+      "global": {
+        "collectionsParentKey": "collections"
+      }
+    }
+  },
+  "collections": {
+    "collection": {
+      "$extensions": {
+        "cloud.knapsack": {
+          "group": {
+            "collectionInfo": {
+              "type": "collection",
+              "modes": [
+                {
+                  "id": "light"
+                },
+                {
+                  "id": "dark"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Group": {
+        "color": {
+          "$type": "color",
+          "$extensions": {
+            "cloud.knapsack": {
+              "group": {
+                "collectionInfo": {
+                  "type": "var"
+                }
+              }
+            }
+          },
+          "light": {
+            "$value": "{color.primary}"
+          },
+          "dark": {
+            "$value": "#158ac3"
+          }
+        }
+      }
+    }
   }
 }

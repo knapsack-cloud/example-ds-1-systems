@@ -1,11 +1,12 @@
 id: homepage
-title: ''
+title: Embed Design System
 blockIds: []
 settings:
   pageHeader:
     backgroundColor:
-      colorValue: '#6A4CEC'
+      colorValue: '#2469ba'
       type: value
+      tokenName: color.secondary
     textColorTitle:
       colorValue: '#FFFFFF'
       type: value

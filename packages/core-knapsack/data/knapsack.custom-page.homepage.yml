@@ -1,10 +1,10 @@
 id: homepage
-title: ''
+title: Bill Design System
 blockIds: []
 settings:
   pageHeader:
     backgroundColor:
-      colorValue: '#6A4CEC'
+      colorValue: '#ff914f'
       type: value
     textColorTitle:
       colorValue: '#FFFFFF'
